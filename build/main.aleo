@@ -1,4 +1,4 @@
-program auction_house_market_place.aleo;
+program auction_house_market_place1.aleo;
 
 record Bid:
     owner as address.private;

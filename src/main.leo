@@ -1,11 +1,5 @@
-program auction_house_market_place.aleo {
-    // A bid in an auction.
-    // - `owner`     : The address of the account that owns the record associated with this bid.
-    //                 This is separate from the address of the account that placed the bid.
-    // - `bidder`    : The address of the account that placed the bid.
-    // - `amount`    : The amount of the bid.
-    // - `is_winner` : Whether the bid is the winning bid.
-    record Bid {
+program auction_house_market_place1.aleo {
+        record Bid {
         owner: address,
         bidder: address,
         amount: u64,
